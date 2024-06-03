@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="/css_files/new_profile.css">
+</head>
+<body>
+    <a href="/login"><img id="logged-in-image" src="/imgs/checkmark.png" width="55px" height="55x" align="right" style="display: none; padding: 10px;"></a>
+    <div id="account-needed" style="margin-top: 150px; display: flex; justify-content: center; align-items: center;">
+        <div class='form-container'>
+            <h2>Account needed</h2>
+            <h5>You must login into an account to create a profile</h5>
+            <a href="/login"><button>Login Page</button></a>
+        </div>
+    </div>
+    
+    <div id="whole-thing" class="container">
+        <div class="form-container">
+            <form id="newProfile-form" class="form">
+                <h2>New Profile (P1)</h2>
+                <h5 id="profileExistsInfo"></h5>
+                <div class="input-group">
+                    <label for="newProfile-name">Name:</label>
+                    <input type="name" id="newProfile-name" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="newProfile-description">Description:</label>
+                    <input type="description" id="newProfile-description" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="newProfile-picture">Image link:</label>
+                    <input type="picture" id="newProfile-picture" name="password" required>
+                </div>
+                <!--
+                Switch group
+                -->
+                <div class="input-group">
+                    <label for="checked">Private:</label>
+                    <label class="switch">
+                        <input id="newProfile-private" checked="" type="checkbox">
+                        <div class="slider">
+                            <div class="circle">
+                                    <svg class="cross" xml:space="preserve" style="enable-background:new 0 0 512 512" viewBox="0 0 365.696 365.696" y="0" x="0" height="6" width="6" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path data-original="#000000" fill="currentColor" d="M243.188 182.86 356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0"></path>
+                                    </g>
+                                    </svg>
+                                    <svg class="checkmark" xml:space="preserve" style="enable-background:new 0 0 512 512" viewBox="0 0 24 24" y="0" x="0" height="10" width="10" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="" data-original="#000000" fill="currentColor" d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <button type="submit">More</button>
+            </form>
+
+            <form id="newProfile-form-part2" class="form" style="display: none">
+                <h2>New Profile (Continued)</h2>
+                <div class="input-group">
+                    <label for="newProfile-noteLink">Note Link:</label>
+                    <input type="link" id="newProfile-noteLink" name="link">
+                </div>
+                <div class="input-group">
+                    <label for="newProfile-notePassword">Note Password:</label>
+                    <input type="password" id="newProfile-notePassword" name="password">
+                </div>
+                
+                <div class="input-group">
+                    <label for="newProfile-audioLink">Audio Link:</label>
+                    <input type="link" id="newProfile-audioLink" name="link">
+                </div>
+                <div class="input-group">
+                    <label for="newProfile-audioPassword">Audio Password:</label>
+                    <input type="password" id="newProfile-audioPassword" name="password">
+                </div>
+                <!-- <button id="addMore">Add More</button> -->
+                <button type="submit">Done</button>
+            </form>
+                
+                <!-- 
+                First part (required): toggle switch (privatize), name, desciption, and picture
+                Countinue button sends to second page
+                Second part (Optional): Links to notes, and notes passwords, links to 
+                Can either finish or countinue to more links (up to 10 links combined)
+                -->
+        </div>
+    </div>
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="/js_files/new_profile.js"></script>
+</body>
+</html>

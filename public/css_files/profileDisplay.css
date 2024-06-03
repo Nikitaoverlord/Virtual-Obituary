@@ -1,0 +1,238 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(https://www.toptal.com/designers/subtlepatterns/uploads/circles-light.png) repeat 0 0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+#profileHolder {
+    display: block;
+    background-color: #156bcd;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profileDiv {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background: url(https://www.toptal.com/designers/subtlepatterns/uploads/circles-light.png) repeat 0 0;
+}
+
+
+#searchDiv {
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png) repeat 0 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.logo h2 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Buttons */
+button{
+    background-color: #156bcd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0f4aa3;
+    transform: translateY(-2px);
+}
+
+.searchButton {
+    background-color: #ffffff !important;
+    color: #156bcd !important;
+    border-radius: 0px !important;
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #156bcd;
+    font-size: 16px;
+    transition: all 0s ease !important;
+}
+
+.searchButton:hover {
+    background-color: #0f4aa3;
+    transform: translateY(0px) !important;
+}
+
+#name-tag {
+    margin-bottom: 0px !important;
+}
+
+/* Profile Lookup */
+.search {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid #156bcd;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.search button {
+    padding: 12px 24px;
+    background-color: #156bcd;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.extra-info {
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.tabs button {
+    padding: 12px 24px;
+    background-color: #156bcd;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tabs button:hover {
+    background-color: #0f4aa3;
+    transform: translateY(-2px);
+}
+
+.tabs button.active {
+    background-color: #0f4aa3;
+}
+
+/* Footer */
+footer {
+    background-color: #156bcd;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Page Tabs */
+.radio-inputs {
+    display: flex;
+    /* border-radius: 0.5rem; */
+    background: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png) repeat 0 0;
+    padding: 1rem;
+    justify-content: center;
+    gap: 10px;
+}
+
+.radio-inputs .radio input {
+    display: none;
+}
+
+.radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    transition: all 0.15s ease-in-out;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: #156bcd;
+}
+
+.radio-inputs .radio input:checked + .name {
+    background-color: #e8e8e8;
+    color: #333;
+    font-weight: 600;
+}
+
+.radio-inputs .radio .name:hover {
+    background-color: #0f4aa3;
+}

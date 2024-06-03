@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limitless Lisa Memory Website - Profile Display</title>
+    <link rel="stylesheet" href="/css_files/profileDisplay.css">
+</head>
+<body>
+    <!--
+    Pages: Homepage(index), Login/Signup, New Profile (can't access from homepage - sent from login),
+    Profile (can't access from hitting tab - sent from lookup), Maybe Lookup + Explore,
+    No info, Share, or Memory Holder Explorer 
+    -->
+    <a href="/login"><img id="logged-in-image" src="/imgs/checkmark-loggedin.png" width="55px" height="72x" align="right" style="display: none; padding: 10px;"></a>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Limitless Lisa</h1>
+                <h2>Memory Website</h2>
+            </div>
+        </div>
+
+        <div id="profileHolder">
+
+        </div>
+    </header>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Limitless Lisa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="/js_files/profileDisplay.js"></script>
+</body>
+</html>

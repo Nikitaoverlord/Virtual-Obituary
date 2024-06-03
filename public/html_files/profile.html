@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Limitless Lisa Memory Website-Profile</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/css_files/profile.css">
+</head>
+
+<body>
+    <a href="/login"><img id="logged-in-image" src="/imgs/checkmark.png" width="55px" height="55x" align="right" style="display: none; padding: 10px;"></a>
+    <div id="no-access-info" style="display: none; justify-content: center; align-items: center;">
+        <div style="display: block;">
+            <img  src="/imgs/no_access.png" width="75%" height="25%" style="padding: 50px;">
+            <h1 style="padding: 50px;">This account is private and you are not the owner</h1>    
+        </div>
+    </div>
+
+    <div class="container" id="whole-thing">
+        <div class="profile">
+            <img id="profile-image" src="https://codehs.com/uploads/334ae615fb66196aa6c6c8676705d2e8" alt="Profile Image">
+        </div>
+
+        <div class="info">
+            <h1 id="profile-name">John Doe</h1>
+            <p id="profile-description" class="description">Sample description</p>
+            <div class="password-section">
+                <h5 id="wrongPasswordInfo"></h5>
+                <input type="text" id="listening-password" placeholder="Enter Listening Password">
+                <button id="listen-button">Listen</button>
+            </div>
+            <p class="result"></p>
+            <div class="password-section">
+                <h5 id="wrongPasswordInfo2"></h5>
+                <input type="text" id="note-password" placeholder="Enter Note Password">
+                <button id="note-button">Read Notes</button>
+            </div>
+            <p class="result"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="/js_files/profile.js"></script>
+</body>
+</html>

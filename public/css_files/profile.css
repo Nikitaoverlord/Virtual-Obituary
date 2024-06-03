@@ -1,0 +1,69 @@
+body {
+    background: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png) repeat 0 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 24px;
+    color: black;
+}
+
+.description {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.password-section {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+button {
+    background-color: #156BCD;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0f4aa3;
+}
+
+.result {
+    margin-top: 10px;
+    color: #333;
+}

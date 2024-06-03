@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limitless Lisa Memory Website - Homepage</title>
+    <link rel="stylesheet" href="/css_files/index.css">
+</head>
+<body>
+    <!--
+    Pages: Homepage(index), Login/Signup, New Profile (can't access from homepage - sent from login),
+    Profile (can't access from hitting tab - sent from lookup), Maybe Lookup + Explore,
+    No info, Share, or Memory Holder Explorer 
+    -->
+    <div class="pages">
+        <div class="radio-inputs">
+            <label class="radio">
+                <input type="radio" name="radio" checked />
+                <span class="name">Homepage</span>
+            </label>
+            <label class="radio">
+                <input type="radio" name="radio" />
+                <a href="/login"><span class="name">Login/Signup</span></a>
+            </label>
+            <label class="radio">
+                <input type="radio" name="radio" />
+                <a href="/new-profile"><span class="name">New Profile</span></a>
+            </label>
+            <label class="radio">
+                <input type="radio" name="radio" />
+                <a href="/profileDisplay"><span class="name">Profile</span></a>
+            </label>
+        </div>
+        <a href="/login"><img id="logged-in-image" src="/imgs/checkmark-loggedin.png" width="55px" height="72x" align="right" style="display: none; padding: 10px;"></a>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Limitless Lisa</h1>
+                <h2>Memory Website</h2>
+            </div>
+        </div>
+    </header>
+
+    <section id="lookup" class="section">
+        <div class="container">
+            <div class="search">
+                <h2>Who are you looking for?</h2>
+                    <div>
+                        <input id="name-tag" type="text" placeholder="Enter name">
+                        <div id="searchDiv"></div>
+                    </div>
+                    <br>
+                    <button id="lookup">Lookup</button>
+                </span>
+                <p class="extra-info">If you wish to edit a profile, email at: mauriellodean@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="tabs" class="section">
+        <div class="container">
+            <h2>Explore</h2>
+            <div class="tabs">
+                <button id="inProgress" style="background-color: #ffcc00;">Memory Holder Explorer</button>
+                <a href="/info"><button>Extra Information</button></a>
+                <a href="/share"><button>Share</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Limitless Lisa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Example JavaScript for interactive features
+        function show() {
+            alert('Lookup button clicked!');
+        }
+    </script>
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="/js_files/index.js"></script>
+</body>
+</html>
