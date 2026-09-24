@@ -151,7 +151,7 @@ io.on('connection', (socket) => {
         let listOfNames = Object.keys(profiles)
         let options = {
             shouldSort: true,
-            threshold: 0.6,
+            threshold: 0.4,
             location: 0,
             distance: 100,
             maxPatternLength: 32,
@@ -186,7 +186,7 @@ setInterval(() => {
     fs.writeFileSync(__dirname + '/public/data/accounts.json', JSON.stringify(accountInfo))
     fs.writeFileSync(__dirname + '/public/data/profiles.json', JSON.stringify(profiles))
     ////////////////
-}, 15)
+}, 5000)
 
 
 
