@@ -11,10 +11,7 @@ The need for a virtual obituary/memoriam has been more necessary as there are ma
  - Each profile must have audio files, text, images, and interactive notes.
 <div align="center"><img width="836" height="414" alt="homepageWithSearch" src="https://github.com/user-attachments/assets/5849f98e-f577-401e-9898-f8d915589e2b" /></div>
 
-## Demo
-
-
-## Features
+## Demo of Features
  - Create profile through web forum with image, description, audio, and notes (a link to shared google doc that can have annotations from multiple people)
 <p align="center">
  <img width="48%" alt="newProfilePg1" src="https://github.com/user-attachments/assets/63cb62d8-168d-4c6e-91c8-20dde6aed124" />
