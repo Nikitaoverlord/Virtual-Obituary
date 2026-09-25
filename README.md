@@ -7,7 +7,7 @@ The need for a virtual obituary/memoriam has been more necessary as there are ma
 
 # Objective
  - A multi-page website with different subdomains to navigate for each profile.
- - Look very nice and presentable. Use AI like to help us code an aesthetic frontend page.
+ - Look very nice and presentable. Make use of AI like to help code an aesthetic frontend page.
  - Each profile must have audio files, text, images, and interactive notes.
 <div align="center"><img width="836" height="414" alt="homepageWithSearch" src="https://github.com/user-attachments/assets/5849f98e-f577-401e-9898-f8d915589e2b" /></div>
 
