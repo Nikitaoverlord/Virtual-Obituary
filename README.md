@@ -16,8 +16,10 @@ The need for a virtual obituary/memoriam has been more necessary as there are ma
 
 ## Features
  - Create profile through web forum with image, description, audio, and notes (a link to shared google doc that can have annotations from multiple people)
-<div align="center"><img width="708" height="435" alt="newProfilePg1" src="https://github.com/user-attachments/assets/63cb62d8-168d-4c6e-91c8-20dde6aed124" /></div>
-<div align="center"><img width="708" height="435" alt="newProfilePg2" src="https://github.com/user-attachments/assets/daf92d24-3cf2-4c29-bd92-58589c2f0c8a" /></div>
+<p align="center">
+ <img width="48%" alt="newProfilePg1" src="https://github.com/user-attachments/assets/63cb62d8-168d-4c6e-91c8-20dde6aed124" />
+ <img width="48%" alt="newProfilePg2" src="https://github.com/user-attachments/assets/daf92d24-3cf2-4c29-bd92-58589c2f0c8a" />
+</p>
 <div align="center"><img width="842" height="307" alt="profile" src="https://github.com/user-attachments/assets/178a9623-ac3c-48fe-bed9-6185aae12ac8" /></div>
  - Scower through the different the list of profile to learn more about different people! Information between users and server is exchanged with socket.io regularly.
 <div align="center"><img width="900" height="450" alt="profilesPage" src="https://github.com/user-attachments/assets/c9e4eed1-199a-4e1a-ad6a-8e5f8c4fb1f1" /></div>
