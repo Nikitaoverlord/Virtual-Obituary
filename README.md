@@ -1,4 +1,4 @@
-## Virtual Obituary (2042-25)
+## Virtual Obituary (2024-25)
 # The Problem
 The need for a virtual obituary/memoriam has been more necessary as there are many complications with physical ones:
  - People want an obituary that can be shared with others easily and can last for a very long time. 
